@@ -14,6 +14,45 @@
   <img src = "https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
 </div><hr>
 
+<div id="theme-toggle">
+    <button onclick="toggleTheme()">Mudar Tema</button>
+</div>
+
+<script>
+function toggleTheme() {
+    const body = document.body;
+    body.classList.toggle('dark-mode');
+    // Opcionalmente, salvar a preferência no localStorage
+    if (body.classList.contains('dark-mode')) {
+        localStorage.setItem('theme', 'dark');
+    } else {
+        localStorage.setItem('theme', 'light');
+    }
+}
+
+// Ao carregar a página, verificar a preferência salva
+document.addEventListener('DOMContentLoaded', function() {
+    const theme = localStorage.getItem('theme');
+    if (theme === 'dark') {
+        document.body.classList.add('dark-mode');
+    }
+});
+</script>
+
+<style>
+body {
+    transition: background-color 0.3s ease;
+}
+.dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+}
+#theme-toggle button {
+    /* Estilos do seu botão */
+    padding: 8px 15px;
+    cursor: pointer;
+}
+</style>
 
 <div>
  <img height = "182em" src = "https://github-readme-stats.vercel.app/api?username=ThiagoAlvesss&theme=vue-dark&show_icons=true&hide_border=true&count_private=true"> 
