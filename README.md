@@ -14,6 +14,14 @@
   <img src = "https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
 </div><hr>
 
+## Sistemas Operacionais
+<div>
+  <img src = "https://img.shields.io/badge/Windows-000?style=for-the-badge&logo=windows&logoColor=2CA5E0"> 
+  <img src = "https://img.shields.io/badge/Ubuntu-35495E?style=for-the-badge&logo=ubuntu&logoColor=2CA5E0">
+  <img src = "https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white">
+</div><hr>
+
+
 <div>
  <img height = "182em" src = "https://github-readme-stats.vercel.app/api?username=ThiagoAlvesss&theme=vue-dark&show_icons=true&hide_border=true&count_private=true">         
  <img height = "180em" src = "https://github-readme-stats.vercel.app/api/top-langs/?username=ThiagoAlvesss&theme=vue-dark&show_icons=true&hide_border=true&layout=compact">
